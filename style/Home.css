@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    font-family: 'Itim', cursive;
+    margin: 0;
+    padding: 0;
+    background-image:url(BG.png);
+    
+}
+.header{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #FFF2CC;
+}
+.navbar {
+    height: 120px;
+    display: flex;
+    background-color: #FFD966;
+    color: #8F582E;
+    
+}
+.logo{
+    display: flex;
+    padding-left: 50px;
+    
+
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+ul li{
+    margin: 0 1rem;
+}
+ul li a{
+    color: #8F582E;
+    text-decoration: none;
+}
+.Main , .Menu ,.Contact ,.Bracket ,.Profile{
+    font-weight: bold;
+    display: inline-block;
+    margin-right:160px;
+    transition: 1s;
+
+}
+
+.slideshow-container {
+  border-radius: 50px;
+  padding: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

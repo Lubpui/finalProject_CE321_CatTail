@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style/Shop.css" />
+        <link
+            href="https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://unpkg.com/css.gg@2.0.0/icons/css/profile.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <title>Shop</title>
+    </head>
+    <body>
+        <section class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" alt="" />
+            </div>
+            <ul>
+                <div class="Main">
+                    <li><a href="/Main.html">หน้าหลัก</a></li>
+                </div>
+                <div class="Menu">
+                    <li><a href="/Shop.html">เมนู</a></li>
+                </div>
+                <div class="Contact">
+                    <li><a href="/Contact.html">ติดต่อเรา</a></li>
+                </div>
+                <div class="Bracket">
+                    <a href="/Payment.html"><i class="gg-shopping-cart"></i></a>
+                </div>
+                <div class="Profile">
+                    <li>
+                        <a href="#"><i class="gg-profile"></i></a>
+                    </li>
+                </div>
+            </ul>
+        </section>
+
+        <header>
+            <div class="cart">
+                <table>
+                    <tbody></tbody>
+                </table>
+                <div class="sub-menu-container">
+                    <ul>
+                        <li><a href="#">ยอดรวม</a></li>
+                    </ul>
+                    <li>
+                        <button class="clear-cart" type="payment">
+                            ชำระเงิน
+                        </button>
+                    </li>
+                    <div class="total-price"></div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="menu-item"></div>
+            </div>
+        </header>
+
+        <script src="/JS/main.js"></script>
+    </body>
+</html>

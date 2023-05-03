@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+body {
+    font-family: "Itim", cursive;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #fff2cc;
+}
+.navbar {
+    height: 120px;
+    display: flex;
+    background-color: #ffd966;
+    color: #8f582e;
+}
+.logo {
+    display: flex;
+    padding-left: 50px;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+ul li {
+    margin: 0 1rem;
+}
+ul li a {
+    color: #8f582e;
+    text-decoration: none;
+}
+.Main,
+.Menu,
+.Contact,
+.Bracket,
+.Profile {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 160px;
+    transition: 1s;
+}
+.cart {
+    position: absolute;
+    top: 20;
+    right: 0;
+    background-color: #fff2cc;
+    width: 300px;
+    height: 90%;
+    padding-top: 20px;
+}
+
+.cart ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cart a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.sub-menu-container {
+    font-family: inherit;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ffd966;
+    width: 260px;
+    height: 150px;
+    padding: 20px;
+    list-style: none;
+}
+.sub-menu-container a {
+    font-size: 20px;
+    color: #8f582e;
+}
+.sub-menu-container ul {
+    font-family: inherit;
+    display: flex;
+    justify-content: flex-start;
+}
+button[type="payment"] {
+    font-family: inherit;
+    color: #8f582e;
+    background-color: #fff1c9;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.sub-menu-container button[type="payment"] {
+    margin-top: 40px;
+    margin-left: 165px;
+    transition: 0.5s;
+}
+.sub-menu-container button[type="payment"]:hover {
+    background-color: #8f582e;
+    color: #fff1c9;
+    cursor: pointer;
+}
+.total-price {
+    width: 50px;
+    height: 5px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background-color: #fff2cc;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 20px 20px 20px;
+}
+
+.add-to-cart {
+    font-family: inherit;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+}
+
+button.add-to-cart:hover {
+    background-color: rgb(255, 249, 216);
+    cursor: pointer;
+}
+
+.menu1-image {
+    flex: 0 0 150px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.menu1-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu1-details {
+    padding: 10px;
+    flex: 1;
+}
+
+.menu1-name {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.menu1-cost {
+    font-size: 20px;
+    margin: 0;
+    color: #666;
+}
+
+.cost {
+    font-family: inherit;
+    font-size: 21px;
+    margin: 0;
+    padding-top: 10px;
+    margin-left: 70px;
+}
+
+.image-content img {
+    width: 50px;
+}
+.image-content {
+    background-color: #f5f2e1;
+    padding: 9px;
+    border-radius: 15px;
+    height: 100%;
+    margin: 0;
+}
+
+.cart-content {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.cart-content .name {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cart-content .text-content {
+    display: flex;
+}
+
+.cart-content .text-content p {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.cart-content .text-content button {
+    border-radius: 22px;
+    width: 22px;
+    height: 22px;
+    background-color: #ffd966;
+    border-style: none;
+    margin-left: -10px;
+    pointer-events: fill;
+    cursor: pointer;
+}
+header {
+    display: flex;
+}
