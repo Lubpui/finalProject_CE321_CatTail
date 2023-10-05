@@ -100,6 +100,7 @@ class Cart {
             return total + item.price * item.quantity;
         }, 0);
     }
+
     getItemById(itemId) {
         return this.items.find((i) => i.id === itemId);
     }
@@ -167,7 +168,6 @@ class Menu {
                         }">-</button></p>
                     </div>
                 </div>
-                
             </div>
 		`;
             this.cartTable.appendChild(cartItem);
